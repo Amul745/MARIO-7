@@ -1,22 +1,7 @@
-h1 {
-    color: brown;
+html, body {
+  margin: 0;
+  padding: 0;
 }
-
-* {
-    border: solid;
-}
-.header{ 
-  background-color: aquamarine;  
-  display:flex;
-  justify-content: space-around
-}
-.grid{
-display:flex;
-flex-wrap : wrap;
-justify-content: space-evenly
-}
-.footer{ 
-display:flex;
-justify-content:flex-start
-
+canvas {
+  display: block;
 }
